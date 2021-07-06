@@ -8,6 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
+
 .half-width{
     width: 50%;
     padding-left: 2%;
@@ -16,6 +17,11 @@ h1{
     display: flex;
     margin-bottom: 150px;
 }
+section{
+    display: flex;
+
+}
+
 .half-width img{
     width: 60%;
 }
@@ -29,20 +35,37 @@ h1{
 }
 .grey-color{
     color: grey;
-.third-part{
-text-align: center;
+
 }
-#recipe-no.1{
-    width: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 20px;
-    box-shawod: 10px 10px 40px gray;
-    border-radius: 10%;
-    border-radius: 20%;
-    border-left: 7px solid blue;
-    border-image: linear-gradient (blue, cyan);
-    border-image-slice: 5;
 
+footer p{
+    text-align: center;
 
+    
+}
+#table{
+display: flex;
+
+}
+#table div {
+    margin: 0px;
+    width: 80%;
+    align-content: center;
+}
+.recipe-title{
+width: 50%;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 20px;
+box-shadow: 10px 10px 40px gray ;
+border-radius: 10px;
+border-image-width: 5%;
+}
+.my-info{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
+.recipe-title img{
+    margin-right: 0;
+    width: 80%;
 }
