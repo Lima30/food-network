@@ -43,15 +43,8 @@ footer p{
 
     
 }
-#table{
-display: flex;
 
-}
-#table div {
-    margin: 0px;
-    width: 80%;
-    align-content: center;
-}
+
 .recipe-title{
 width: 50%;
 margin-left: 5%;
@@ -68,4 +61,7 @@ border-image-width: 5%;
 .recipe-title img{
     margin-right: 0;
     width: 80%;
+}
+.advice-part{
+    text-align: center;
 }
